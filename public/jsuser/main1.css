@@ -1,0 +1,315 @@
+.account {
+    list-style-type: none; /* Loại bỏ chấm tròn */
+    padding: 0; /* Loại bỏ khoảng trống */
+    display: flex; /* Hiển thị các phần tử nằm hàng ngang */
+  }
+  
+  .account li {
+    margin-right: 10px; /* Khoảng cách giữa các phần tử */
+  }
+  
+  .account li:last-child {
+    margin-right: 0; /* Không có khoảng cách cho phần tử cuối cùng */
+  }
+  
+  .account li a {
+    text-decoration: none; /* Loại bỏ gạch chân */
+    color: white; /* màu chữ */
+    font-size: 15px; /* cỡ chữ */
+  }
+  .bgtop1{
+    background-color: #303030; /* màu nền */
+    color: #EEEEEE;
+    height: 30px; /* chiều cao 30px */
+}
+.logo{
+  max-width: 100%; /* giới hạn chiều rộng tối đa của một phần tử*/
+  height: auto;
+  margin-top: -10px;
+}
+.bgtop2{
+  background-color: #303030;
+  color: #EEEEEE;
+}
+.bgtop3{
+  background-color: #303030;
+  /* color: #EEEEEE; */
+  height: 380px;
+}
+.nav-link.custom-font {
+  font-family: 'Arial', sans-serif; /* kiểu chử */
+  font-size: 17px;
+  font-weight: 600; /* Tăng độ đậm của chữ */
+  margin-right: 15px; /* Tạo khoảng cách 15px giữa các chữ */
+  color: #EEEEEE;
+}
+.banner2{
+  height: 340px;
+  object-fit: cover;
+}
+/* sanphamdrop */
+.custom-dropdown-item {
+  color: #303030; /* Màu chữ */
+  font-weight: bold; /* Đậm */
+  font-size: 13px; /* Kích thước chữ */
+  padding: 10px 20px; /* Khoảng cách nội dung và viền */
+  
+}
+.navbar-nav .nav-item .nav-link:hover {
+  background-color: gray; /* Màu background khi hover */
+  color: #ffffff !important; /* Màu chữ khi hover */
+}
+/* Hiển thị dropdown menu khi hover vào mục sản phẩm */
+.navbar-nav .nav-item.dropdown:hover .dropdown-menu {
+  display: block;
+}
+.custom-dropdown-item:hover {
+  background-color: #f5f5f5; /* Màu nền khi hover */
+  color: #000000; /* Màu chữ khi hover */
+}
+/*hover tin tuc*/
+.card-img {
+  overflow: hidden;
+}
+.card-img img {
+  transition: all 1s ease;
+}
+.card-img:hover img {
+  transform: scale(1.2);
+}
+/* danhmucsanpham */
+
+.product-card {
+  background-color: #f8f9fa;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.product-card img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.product-card h4 {
+  margin-bottom: 10px;
+}
+
+.product-card p {
+  margin-bottom: 0;
+}
+
+.buy-button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.danhmucmuahang img{
+  width: 100%;
+  height: 300px;
+  object-fit:cover;
+}
+.separator {
+  height: 2px;
+  background-color: black;
+  margin: 30px 0;
+}
+/* hover đổ danh mục */
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+/* tintuc */
+.danhmuctintuc img{
+  width: 100%;
+  height: 250px;
+  object-fit:cover;
+}
+/* footer  */
+.list-footer li{
+  margin-top: 20px;
+}
+.list-footer li a{
+  font-size: 16px;
+  text-decoration: none;
+}
+.list-footer2 li{
+  margin-top: 10px;
+}
+.list-footer2 li a{
+  font-size: 16px;
+  text-decoration: none;
+}
+/* giohang(Cart)  */
+.cart{
+  height: 35px;
+  width: 40px;
+  object-fit: contain;
+}
+/* sanphannu(1) */
+.danhmuc
+{
+    width:220px;
+    float:left;   
+}
+.danhmuc h2
+{
+    color:#303030;
+    font-size:20px;
+    font-family:Arial, Helvetica, sans-serif;
+    border-bottom:3px solid #dce1e3;
+}
+.danhmuc ul
+{
+    list-style:none;
+}
+.danhmuc ul li a
+{
+    text-decoration:none;
+    color:#596267;
+    font-family:Arial, Helvetica, sans-serif;
+    line-height:40px;
+    border-bottom:1px solid #dce1e3;
+    display:block;
+}
+.product {
+  /* border: 1px solid black; */
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+  padding: 20px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.product img {
+  width: 100%;
+  max-height: 200px;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+.product-card h4,.product h4{
+  font-size: 20px;
+}
+.buy-button {
+  background-color: white;
+  border: 1px solid black;
+  padding: 5px 10px;
+  border-radius: 4px;
+  color: black;
+}
+/* #gioithiu */
+
+
+
+/*lien he*/
+.btn-primary2{
+  background-color: white;
+  border: 1px solid black;
+}
+/* khuyenmai */
+.khuyenmaiimg{
+  
+  height: 200px;
+  object-fit: contain;
+}
+.discount {
+  color: red;
+}
+ /* CSS cho chatbox */
+ #chatbox-container {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 300px;
+  background-color: #f1f1f1;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  display: none;
+}
+
+#chatbox-header {
+  padding: 10px;
+  background-color: #2c79c1;
+  color: white;
+  cursor: pointer;
+}
+
+#chatbox-body {
+  padding: 10px;
+  height: 250px;
+  overflow-y: scroll;
+}
+
+#chatbox-input {
+  padding: 10px;
+  width: 100%;
+  border: none;
+  border-top: 1px solid #ccc;
+}
+
+/* sticky  */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 999;
+}
+/* back to top  */
+.back-to-top {
+  position: fixed;
+  bottom: 25px;
+  left: 15px;
+}
+
+/* cart  */
+.item{
+  width: 200px;
+  float: left;
+  text-align: center;
+  border: 0.5px solid black;
+  padding: 10px;
+  margin: 10px;
+}
+.Prod_photo{
+  width: 100%;
+}
+#cartTotal{
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 200px;
+  padding: 15px;
+  text-align: center;
+  background-color: black;
+  color: yellow;
+  font-weight: bold;
+}
+#cartInfo{
+  position: fixed;
+  /* text-align: center; */
+  bottom: 0;
+  right: 0;
+  padding: 15px;
+  background-color: black;
+  color: yellow;
+  width: 700px;
+  height: auto;
+}
+#tblcard{
+  width: 100%;
+  border: none;
+}
+#tblcard tr td{
+  border: solid 0.5px yellow;
+  padding: 5px;
+}
+.valQuantity{
+  width: 30%;
+  text-align: center;
+}
+#row1{
+  background-color: blueviolet;
+  color: bisque;
+}

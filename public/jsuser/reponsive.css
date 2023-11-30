@@ -1,0 +1,119 @@
+/* CSS cho mobile */
+@media screen and (max-width:576px){
+    .d-flex{
+        margin-top: 0px;
+    }
+    .search,.qc,.qc0,.sanphamyt,.emaill{
+        display: none;
+    }
+    body{
+      background-color: #e2f3f5;
+    }
+}
+/* CSS cho màn hình nhỏ */
+@media only screen and (max-width: 767px) {
+  body{
+    background-color: #e2f3f5;
+  }
+
+  .qc,.qc,.qc0{
+    display: none;
+  }
+    .sanphamyt{
+        display: none;
+    }
+    .dangnhapdangki{
+        display: none;
+    }
+    .logomedia{
+        text-align: center;
+        margin-top: 30px;
+    }
+    .bgtop3{
+        height: auto;
+    }
+    .mediahd{
+        margin-top: 18px;
+    }
+    .mediacs{
+        margin-top: 18px;
+    }
+    .navbar-toggler {
+      color: #fff;
+      border-color: #fff;
+    }
+  
+    .navbar-toggler-icon {
+      background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 16 16' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 1)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M2 5h12M2 8h12M2 11h12'/%3E%3C/svg%3E");
+    }
+  
+    .navbar-collapse {
+      background-color: #333;
+    }
+  
+    .navbar-nav {
+      flex-direction: column;
+      align-items: stretch;
+      width: 100%;
+      padding-top: 10px;
+    }
+  
+    .nav-item {
+      border-bottom: 1px solid #555;
+    }
+  
+    .nav-link {
+      color: #fff;
+      padding: 10px 15px;
+    }
+  
+    .dropdown-menu {
+      background-color: #333;
+      border: none;
+    }
+  
+    .dropdown-item {
+      color: #fff;
+      padding: 10px 15px;
+    }
+  
+    .dropdown-divider {
+      border-top-color: #555;
+    }
+    /* dangnhap  */
+    .quenmk{
+      margin-top: 30px;
+    }
+  }
+/* CSS cho tablet */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  
+    .logomedia{
+        text-align: center;
+        margin-top: 20px;
+    }
+    .bgtop3{
+        height: auto;
+    }
+    .mediahd{
+        margin-top: 18px;
+    }
+    .mediacs{
+        margin-top: 18px;
+    }
+    .sanphamyt{
+        display: none;
+    }
+    .dangnhapdangki{
+        display: none;
+    }
+    
+    /* Thêm các quy tắc CSS khác cho tablet */
+    /* ba gachj  */
+}
+
+/* CSS cho laptop */
+@media only screen and (min-width: 1025px) {
+   
+    /* Thêm các quy tắc CSS khác cho laptop */
+}
